@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Tip calculator app</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    Bill
+    <input type="number" name="bill-input" id="bill-input" /><br />
+    <p id="bill-warning">Please enter bill amount</p>
+
+    Select Tip %
+    <div class="button-percentages">
+      <input type="button" value="5%" <input type="button" value="10%" />
+      <input type="button" value="15%" />
+      <input type="button" value="35%" />
+      <input type="button" value="25%" />
+      <input type="button" value="50%" />
+    </div>
+    <input
+      type="number"
+      id="custom-percantage"
+      placeholder="custom percentage"
+    /><br />
+
+    Number of People
+    <input type="number" id="number-of-people" value="1" /><br />
+
+    Tip Amount
+    <p id="tip"></p>
+
+    person Total
+    <p id="total"></p>
+
+    person Reset
+    <button type="reset" id="reset-btn">Reset</button>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
